@@ -27,17 +27,10 @@ namespace TurtleTrainingGame
                 i++;
             }
 
-            i = 0;
-
-            while (i < 2)
+            for (i = 0; i < 6; i++)
             {
                 Turtle.Move(100);
-                Turtle.Turn(45);
-                Turtle.Move(100);
-                Turtle.TurnRight();
-                Turtle.Move(100);
-                Turtle.Turn(45);
-                i++;
+                Turtle.Turn(60);
             }
         }
     }
